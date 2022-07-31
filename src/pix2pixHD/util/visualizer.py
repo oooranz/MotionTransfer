@@ -13,7 +13,7 @@ try:
 except ImportError:
     from io import BytesIO         # Python 3.x
 
-class Visualizer():
+class Visualizer:
     def __init__(self, opt):
         # self.opt = opt
         self.tf_log = opt.tf_log

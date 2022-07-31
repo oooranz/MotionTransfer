@@ -84,7 +84,7 @@ for idx in tqdm(range(len(os.listdir(str(img_dir))))):
                           for ht in heatmap.transpose(2, 0, 1)[:-1]]).transpose(1, 2, 0)
     heatmap[:, :, :-1] = r_heatmap
     param = {'thre1': 0.1, 'thre2': 0.05, 'thre3': 0.5}
-    # TODO get_pose
+
     label, cord = get_pose(param, heatmap, paf)
     index = 13
     crop_size = 25

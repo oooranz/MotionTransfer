@@ -49,4 +49,4 @@ plt.close()
 js_anim = HTML(anim.to_jshtml())
  
 
-anim.save("output.gif", writer="imagemagick")
+anim.save("output.gif", writer="pillow")

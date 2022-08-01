@@ -14,6 +14,6 @@ Lecture project for "Computer Vision and Deep Learning: Visual Synthesis"
   * Run `transfer.py` and get results in `./results`
 * Gain results
   * Run `make_gif.py` to create a gif out  of the resulting images.
-![](/result/output_zheyu.gif)
+![](result/output_zheyu.gif)
 
-![](/result/output_jinhe.gif)
+![](result/output_jinhe.gif)

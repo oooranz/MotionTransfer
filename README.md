@@ -20,7 +20,7 @@ Lecture project for "Computer Vision and Deep Learning: Visual Synthesis"
     ![](result/output_jinhe.gif)
 
 ## Training
-* We ran our code on GPU in [Colab](https://colab.research.google.com/) with the following information:
+* We ran our code on GPU in [Colab](https://colab.research.google.com/drive/1y9iZH3lK-gae3PKhc7-_aZQ8eIH5dXH1?usp=sharing) with the following information:
   * NVIDIA-SMI 460.32.03    
   * Driver Version: 460.32.03    
   * CUDA Version: 11.2

@@ -1,8 +1,8 @@
 # Human-Video-Motion-Transfer
 Lecture project for "Computer Vision and Deep Learning: Visual Synthesis"
 
-* A PyTorch reproduction of [Everybody Dance Now](https://arxiv.org/abs/1808.07371) from Berkeley AI lab.
-## Pipeline of our method
+* A PyTorch implementation of [Everybody Dance Now](https://arxiv.org/abs/1808.07371) from Berkeley AI lab.
+## Pipeline of the method
 * Process the source pictures
   * Put source video `mv.mp4` in `./data/source/` 
   * Then run `make_source.py`, the label images and coordinate of head will save in `./data/source/test_label_ori/` and `./data/source/pose_souce.npy`
